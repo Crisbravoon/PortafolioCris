@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+.derecha{
+    text-align:left;
+    width:100%;
+    padding-top: 2rem;
+}
+
+.containerP{
+    width:90%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+.col1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.icons{
+    width:100rem;
+    color:#154360;
+    text-decoration: none;
+    font-style: none;
+    
+}
+.icons:hover{
+        color:#154360;
+}
+.col2{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
+h1{
+    font-size: 2rem;
+    color:#154360;
+}
+
+#textBanner{
+    margin:1rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    background-color:#D6EAF8;
+}
+
+.SecondBanner{
+    background-color:#D6EAF8;
+}
+
+h1{
+    font-weight: bold;
+    color:#154360;
+}
+
+.myName{
+    font-weight: bold;
+    color:#154360;
+    font-size: 28px !important;
+    display:block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 318px;
+
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+.btn-download{
+    background-color:#F97C13;
+    font-weight: bold;
+    color: #154360;
+    border-radius: 9px;
+}
+.btn-download:hover{
+    box-shadow: 5px 5px 20px rgba(41, 24, 196, 0.4);
+    transform: translateY(-4%);
+    background-color:#154360;
+    color: #dfe5e9;
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color:transparent;}
+}
+
+p{
+    font-weight: 500;
+    color:#154360;
+}
+

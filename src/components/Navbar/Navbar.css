@@ -1,0 +1,23 @@
+
+
+
+.navbar{
+    background-color:#D6EAF8;
+    width: 100% !important;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#154360 !important;
+}
+
+.navbar-nav>li>a {
+    color:#154360 !important;
+   }
+
+   .navbar-nav>li>a :hover {
+    color:#cc6969 !important;
+   }
+
+.img-logo{
+    width: 100px !important;
+
+}
